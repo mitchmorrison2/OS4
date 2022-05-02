@@ -279,13 +279,13 @@ void test_case(string fname, int count)
 
 int main(int argc, char **argv)
 {
-    test_case("test1.txt", 3);
+//    test_case("test1.txt", 3);
+    test_case("test1.txt", 5);
 
 //    test_case(argv[1], 3);
 //    test_case(argv[1], 5);
     return 0;
 /*
-  test_case("test1.txt", 5);
   test_case("test2.txt", 3);
   test_case("test2.txt", 6);
   test_case("test3.txt", 4);
