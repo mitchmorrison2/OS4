@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Mitchellmorrison/Desktop/SMU/Year4/Spring/OS/finalProgram/OS4/prog4.cpp
+iostream
+-
+fstream
+-
+vector
+-
+deque
+-
+prog4_MRU.h
+/Users/Mitchellmorrison/Desktop/SMU/Year4/Spring/OS/finalProgram/OS4/prog4_MRU.h
+prog4_LRUclean.h
+/Users/Mitchellmorrison/Desktop/SMU/Year4/Spring/OS/finalProgram/OS4/prog4_LRUclean.h
+prog4_MyOwn.h
+/Users/Mitchellmorrison/Desktop/SMU/Year4/Spring/OS/finalProgram/OS4/prog4_MyOwn.h
+
+/Users/Mitchellmorrison/Desktop/SMU/Year4/Spring/OS/finalProgram/OS4/prog4_LRUclean.h
+unordered_set
+-
+unordered_map
+-
+iostream
+-
+
+/Users/Mitchellmorrison/Desktop/SMU/Year4/Spring/OS/finalProgram/OS4/prog4_MRU.h
+unordered_set
+-
+
+/Users/Mitchellmorrison/Desktop/SMU/Year4/Spring/OS/finalProgram/OS4/prog4_MyOwn.h
+

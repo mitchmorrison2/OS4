@@ -11,7 +11,6 @@ using namespace std;
 #include "prog4_MyOwn.h"
 
 
-
 class PRDS_FIFO {
    public:
 	PRDS_FIFO (int x) {};  // x denotes the number of size of the page vector (max # of pages in main memory)
@@ -121,17 +120,11 @@ void test_case(string fname, int count)
    */
    for (int i = 0; i < count; i++)
 	{
-	pages_FIFO.push_back(0);
-    pages_MRU.push_back(0);
-    pages_LRUclean.push_back(0);
-
-	/*
-     		Uncomment the appropriate line(s) to test your program
-
-
-	pages_MyOwn.push_back(0);
-	*/
-	}
+        pages_FIFO.push_back(0);
+        pages_MRU.push_back(0);
+        pages_LRUclean.push_back(0);
+        pages_MyOwn.push_back(0);
+    }
 
    ifstream ifile;
    ifile.open(fname);
